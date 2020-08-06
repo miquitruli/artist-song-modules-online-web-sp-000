@@ -2,7 +2,7 @@ require 'pry'
 
 module Memorable
   module ClassMethods
-    def self.reset_all
+    def reset_all
       all.clear
     end
 
