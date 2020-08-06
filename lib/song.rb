@@ -9,6 +9,7 @@ class Song
 
   def initialize
     @@songs << self
+    super
   end
 
   def self.find_by_name(name)
